@@ -1,0 +1,17 @@
+num1=int(input("enter the first number :"))
+num2=int(input("enter the second number :"))
+op=input("enter the operator :")
+if op=="+":
+    result=num1+num2
+    print("the addition of two numbers is :",result)
+elif op=="-":
+    result=num1-num2
+    print("the difference of two numbers is :",result)
+elif op=="*":
+    result=num1*num2
+    print("the product of two numbers is :",result)
+elif op=="/":
+    result=num1/num2
+    print("the quotient of two numbers is :",result)
+else:
+    print(invaild)
